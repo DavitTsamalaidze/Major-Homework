@@ -1,0 +1,125 @@
+* {
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 0, 139);
+}
+
+.first-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgb(215, 226, 255);
+  border: 4px solid gray;
+  border-radius: 20px;
+}
+.first-box .logo {
+  color: rgb(0, 0, 139);
+}
+.first-box .nav {
+  position: absolute;
+  left: 200px;
+}
+.first-box .first-link {
+  color: gray;
+  font-size: 20px;
+}
+.first-box .button-one {
+  border: none;
+  background-color: rgb(0, 89, 255);
+  width: 125px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.second-box {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid gray;
+  border-radius: 20px;
+  background-color: rgb(214, 249, 255);
+}
+.second-box .second-title {
+  color: rgb(0, 33, 82);
+}
+.second-box .second-desc {
+  color: rgb(0, 52, 131);
+}
+.second-box .button-two {
+  border: none;
+  background-color: rgb(0, 116, 6);
+  width: 170px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  font-size: 17.5px;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 600px;
+  gap: 20px;
+}
+.boxes .box-1 {
+  display: flex;
+  position: relative;
+  border: 4px solid gray;
+  border-radius: 20px;
+  padding: 15px;
+}
+.boxes .box-1 .popular {
+  position: absolute;
+}
+.boxes .box-1 .color-box1 {
+  width: 130px;
+  height: 85px;
+  background-color: rgba(255, 230, 88, 0.932);
+  border-radius: 20px;
+}
+.boxes .box-2 {
+  border: 4px solid gray;
+  border-radius: 20px;
+  padding: 15px;
+}
+.boxes .box-2 .color-box2 {
+  width: 130px;
+  height: 85px;
+  background-color: rgba(88, 216, 255, 0.932);
+  border-radius: 20px;
+}
+.boxes .box-3 {
+  border: 4px solid gray;
+  border-radius: 20px;
+  padding: 15px;
+}
+.boxes .box-3 .color-box3 {
+  width: 130px;
+  height: 85px;
+  background-color: rgba(107, 255, 88, 0.932);
+  border-radius: 20px;
+}
+.boxes .box-4 {
+  border: 4px solid gray;
+  border-radius: 20px;
+  padding: 15px;
+}
+.boxes .box-4 .color-box4 {
+  width: 130px;
+  height: 85px;
+  background-color: rgba(255, 132, 245, 0.932);
+  border-radius: 20px;
+}
+.boxes .info-box {
+  grid-row: span 2;
+  border: 4px solid gray;
+  border-radius: 20px;
+  padding: 15px;
+}/*# sourceMappingURL=style.css.map */
